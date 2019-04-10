@@ -12,6 +12,7 @@ versions.test_runner = "1.1.0"
 versions.junit = "4.12"
 versions.espresso = "3.1.0"
 versions.glide = "4.8.0"
+versions.flexbox = "1.1.0"
 def deps = [:]
 
 def android = [:]
@@ -22,6 +23,7 @@ deps.android = android
 def support = [:]
 support.appcompat = "androidx.appcompat:appcompat:$versions.support"
 support.design = "com.google.android.material:material:$versions.support_design"
+support.flexbox = "com.google.android:flexbox:$versions.flexbox"
 support.constraintlayout = "androidx.constraintlayout:constraintlayout:$versions.constraintlayout"
 deps.support = support
 

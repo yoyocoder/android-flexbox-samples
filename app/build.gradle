@@ -28,6 +28,7 @@ dependencies {
     implementation deps.support.appcompat
     implementation deps.support.design
     implementation deps.support.constraintlayout
+    implementation deps.support.flexbox
 
     implementation deps.kotlin.stdlib
 
