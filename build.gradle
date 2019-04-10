@@ -1,25 +1,25 @@
 buildscript {
-    apply from: 'versions.gradle'
-    ext.kotlin_version = '1.3.21'
-    repositories {
-        google()
-        jcenter()
-        mavenCentral()
-    }
-    dependencies {
-        classpath deps.android.gradle_plugin
-        classpath deps.kotlin.plugin
-        classpath deps.kotlin.allopen
-    }
+  apply from: 'versions.gradle'
+  ext.kotlin_version = '1.3.21'
+  repositories {
+    google()
+    jcenter()
+    mavenCentral()
+  }
+  dependencies {
+    classpath deps.android.gradle_plugin
+    classpath deps.kotlin.plugin
+    classpath deps.kotlin.allopen
+  }
 }
 
 allprojects {
-    repositories {
-        google()
-        jcenter()
-    }
+  repositories {
+    google()
+    jcenter()
+  }
 }
 
 task clean(type: Delete) {
-    delete rootProject.buildDir
+  delete rootProject.buildDir
 }

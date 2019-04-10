@@ -28,7 +28,7 @@ support.constraintlayout = "androidx.constraintlayout:constraintlayout:$versions
 deps.support = support
 
 def lifecycle = [:]
-lifecycle.extensions = "androidx.lifecycle:lifecycle-extensions:$versions.lifecycle"
+lifecycle.extensions = "androidx.lifecycle:lifecycle-extensions:a$versions.lifecycle"
 lifecycle.compiler = "androidx.lifecycle:lifecycle-compiler:$versions.lifecycle"
 deps.lifecycle = lifecycle
 
